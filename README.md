@@ -43,22 +43,7 @@ Follow these steps to set up the project locally:
    npm start
 
 ### Project Structure
-crypto-tracker/
-├── public/
-│   └── index.html              # Main HTML template
-├── src/
-│   ├── components/             # Reusable components (buttons, cards, etc.)
-│   ├── pages/                  # Main pages like Home
-│   ├── redux/                  # Redux slice and store configuration
-│   │   ├── cryptoSlice.js      # Slice for managing crypto assets
-│   │   └── store.js            # Redux store configuration
-│   ├── utils/                  # Utility functions and static data
-│   ├── App.js                  # Root component
-│   ├── index.js                # Main entry point for React
-│   └── tailwind.config.js      # Tailwind CSS configuration
-├── .gitignore                  # Git ignore file
-├── package.json                # Project metadata and dependencies
-└── README.md                   # This file
+crypto-tracker/ ├── public/ │ └── index.html # Main HTML template ├── src/ │ ├── components/ # Reusable components (buttons, cards, etc.) │ ├── pages/ # Main pages like Home │ ├── redux/ # Redux slice and store configuration │ │ ├── cryptoSlice.js # Slice for managing crypto assets │ │ └── store.js # Redux store configuration │ ├── utils/ # Utility functions and static data │ ├── App.js # Root component │ ├── index.js # Main entry point for React │ └── tailwind.config.js # Tailwind CSS configuration ├── .gitignore # Git ignore file ├── package.json # Project metadata and dependencies └── README.md # This file
 
 ### Components
 -Home: Displays the main dashboard with all cryptocurrencies.
